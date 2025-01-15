@@ -21,7 +21,7 @@ CREATURES = {
 
 if __name__ == "__main__":
     #nome do arquivo a ser lido 
-    file_path = "tests/caso10.txt"
+    file_path = "tests/caso250.txt"
     dimensions, labyrinth = load_labyrinth(file_path)
     
     graph = parse_labyrinth(labyrinth)
